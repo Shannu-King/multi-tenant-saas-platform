@@ -2,7 +2,7 @@ import React, { useEffect, useState, useContext } from 'react';
 import axios from 'axios';
 import { AuthContext } from '../context/AuthContext';
 
-const API_BASE = process.env.REACT_APP_API_BASE || 'http://localhost:5000';
+const API_BASE = process.env.REACT_APP_API_BASE || 'https://multi-tenant-saas-platform-8qj7.onrender.com';
 const STATUS_OPTIONS = [
   { value: 'todo', label: 'To do' },
   { value: 'in_progress', label: 'In progress' },
